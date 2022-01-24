@@ -11,19 +11,21 @@ file_wpd = ["WPD", "Wpd", "wpd"]
 # Way to exit
 leave = ["exit", "exit()", "Exit", "Exit()"]
 
+
 # Intro
 print("""
 Word for
  Python
-  v2.0
+  v1.0.2
 """)
 
 time.sleep(1.3)
 
+
 # File type Program
-print("""Please choose a file type:\n 1 docx\n 2 txt\n 3 doc\n 4 rtf\n 5 wpd\n
-""")
-file_type = input(">>> ")
+file_type = input("""Please choose a file type:\n 1 docx\n 2 txt\n 3 doc\n 4 rtf\n 5 wpd\n
+
+>>> """)
 
     # Opening files in their respective formats
 if file_type in file_docx:
@@ -48,6 +50,7 @@ time.sleep(1)
 
 enter = input("""Press enter to continue...
 """)
+
 
 # typing Part
 print("""Start Typing: """)
