@@ -11,6 +11,7 @@ file_wpd = ["WPD", "Wpd", "wpd"]
 # Way to exit
 leave = ["exit", "exit()", "Exit", "Exit()"]
 
+yo = "yo"
 
 # Intro
 print("""
